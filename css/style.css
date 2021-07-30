@@ -22,25 +22,27 @@ a{
 }
 /** header will be changed to a banner or logo**/
 h1{
-    text-align: right;
+    width: fit-content;
     color:rgb(3, 132, 186);
     background-color: rgb(54, 69, 79);
     font-size: 60px;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 855px;
+    
 }
 h2{
-    text-align:left;
-    color:rgb(3, 132, 186);
-    font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.categ{
-    text-align: center;
-    list-style-type: none;
-    font-weight: 700;
-    font-size:50px;
+    font-size: 50px;
     
+}
+
+.list{
+    position: relative;
+    left:550px;
+    top:140px;
+    list-style-type: none;
+    font-size:50px;
+    font-weight:700;
 }
 
 a{
@@ -48,9 +50,63 @@ a{
     color: black;
 }
 
-
 #search{
-    text-align: right;
-    
+    list-style-type: none;
+    font-weight: 700;
+    font-size:50px;
+    position:relative;
+    bottom: 300px;
+    left: 950px;
 }
+#type{
+    position:relative;
+    bottom: 300px;
+    left: 1000px;
+
+}
+
+#FC{
+    position: relative;
+    top: 190px;
+    left: 23px;
+}
+
+#c1{
+    position: relative;
+    top: 200px;
+    left: 80px;
+    font-size: 50px;
+}
+#c2{
+    position: relative;
+    top: 102px;
+    left: 400px;
+    font-size: 50px;
+}
+
+#c3{
+    position: relative;
+    top:3px;
+    left: 720px;
+    font-size: 50px;
+}
+
+#c4{
+    position: relative;
+    bottom:94px;
+    left: 1040px;
+    font-size: 50px;
+}
+.Ca{
+    position: relative;
+    left:150px;
+    bottom: 50px;
+    list-style-type: none;
+    font-weight:700;
+}
+
+
+
+
+
 
